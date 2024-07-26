@@ -78,7 +78,9 @@ struct ContentView: View {
             }
         }
     }
- 
+ // meaningless pagging git test
+ // another comment
+    
     private func calculateCumulativeTime(upToIndex index: Int) -> TimeInterval {
         guard let route = route else { return 0 }
         return zip(route.waypoints.prefix(index), route.waypoints.dropFirst().prefix(index))
